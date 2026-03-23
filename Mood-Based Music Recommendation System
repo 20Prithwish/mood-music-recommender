@@ -1,0 +1,85 @@
+🎧 Mood-Based Music Recommendation System
+A full-stack web application that detects a user's mood using facial expressions and recommends music accordingly using AI and YouTube integration.
+---
+🚀 Features
+🎥 Real-time mood detection using webcam
+🤖 Emotion recognition using DeepFace
+🎵 Mood-based YouTube music recommendations
+🖥️ Simple and interactive UI
+🔘 Manual mood selection option
+---
+🛠️ Technologies Used
+Frontend:** HTML, CSS, JavaScript
+Backend:** Python (Flask)
+Libraries:** DeepFace, OpenCV, Requests
+Tools:** VS Code, GitHub
+---
+📂 Project Structure
+```
+mood_music/
+│
+├── app.py
+├── requirements.txt
+│
+├── templates/
+│   ├── index.html
+│   └── result.html
+│
+└── static/
+    └── style.css
+```
+---
+⚙️ Installation & Setup
+1. Clone the repository:
+```
+git clone https://github.com/YOUR_USERNAME/mood-music-recommender.git
+```
+2. Navigate to the project folder:
+```
+cd mood-music-recommender
+```
+3. Install dependencies:
+```
+pip install -r requirements.txt
+```
+4. Run the Flask app:
+```
+python app.py
+```
+5. Open in browser:
+```
+http://127.0.0.1:5000/
+```
+---
+🎯 How It Works
+1. User opens the web application
+2. Webcam captures facial image
+3. DeepFace analyzes emotion
+4. System detects mood (happy, sad, angry, etc.)
+5. Corresponding YouTube playlist is recommended
+---
+📸 Screenshots
+Screenshot 1: Homepage
+Screenshot 2: Mood Detection Result
+Screenshot 3: Playlist Recommendation
+---
+⚠️ Limitations
+Requires good lighting for accurate detection
+Webcam quality affects performance
+Cannot detect hidden/internal emotions accurately
+---
+🔮 Future Scope
+Voice-based emotion detection
+Spotify API integration
+Mobile app version
+Personalized playlist generation
+---
+📚 References
+DeepFace Documentation
+OpenCV Documentation
+Flask Official Docs
+Research papers on emotion detection
+---
+💡 Tagline
+“Detect your mood. Play your vibe.” 🎶
+---
